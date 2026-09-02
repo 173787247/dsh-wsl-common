@@ -1,0 +1,34 @@
+{
+  "name": "dsh-wsl-common",
+  "version": "0.1.0",
+  "description": "Shared WSL/Windows helpers for dsh-wsl-* plugins (wsl-host.js, wsl.js).",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/173787247/dsh-wsl-common.git"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./wsl-host.js": "./lib/wsl-host.js",
+    "./wsl.js": "./lib/wsl.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh-plugin",
+    "wsl",
+    "deepseek-harness"
+  ]
+}
