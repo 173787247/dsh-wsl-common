@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.1
+
+- Add `lib/proxy.js` (`proxiedFetch` / `proxyLabel`); companion HTTP uses it when `HTTPS_PROXY` is set
+  (optional `https-proxy-agent` peer; otherwise global fetch).
+
 ## 0.2.0
 
 - Add `lib/companion_client.js` (Companion protocol v1 client: `listDevices` / `resolveDevice` / `health` / `invoke`).

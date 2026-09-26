@@ -1,7 +1,7 @@
 {
   "name": "dsh-wsl-common",
-  "version": "0.2.0",
-  "description": "Shared WSL/Windows helpers for dsh-wsl-* plugins (wsl-host.js, wsl.js, companion_client.js).",
+  "version": "0.2.1",
+  "description": "Shared WSL/Windows helpers for dsh-wsl-* plugins (wsl-host.js, wsl.js, companion_client.js, proxy.js).",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -12,7 +12,8 @@
     ".": "./index.js",
     "./wsl-host.js": "./lib/wsl-host.js",
     "./wsl.js": "./lib/wsl.js",
-    "./companion_client.js": "./lib/companion_client.js"
+    "./companion_client.js": "./lib/companion_client.js",
+    "./proxy.js": "./lib/proxy.js"
   },
   "engines": {
     "node": ">=18"
